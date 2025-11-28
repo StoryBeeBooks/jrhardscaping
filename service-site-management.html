@@ -6,10 +6,51 @@
     <meta name="description" content="Specialized construction services in Toronto & GTA. Drainage engineering, green roof systems, erosion control & permit management. Advanced technical solutions.">
     <title>Specialty Construction & Technical Services | JR Hardscaping</title>
     <link rel="stylesheet" href="styles.css">
+    
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://jrhardscaping.com/index.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://jrhardscaping.com/solutions.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Specialty Construction & Technical Services",
+          "item": "https://jrhardscaping.com/service-site-management.html"
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
     <!-- Navigation -->
     <div id="nav-placeholder"></div>
+
+    <!-- Breadcrumb Navigation -->
+    <nav aria-label="breadcrumb" style="background: var(--light-gray); padding: var(--space-4) 0; border-bottom: 1px solid var(--border-gray);">
+        <div class="container">
+            <ol style="list-style: none; display: flex; align-items: center; margin: 0; padding: 0; font-size: var(--text-sm); color: var(--text-muted);">
+                <li><a href="index.html" style="color: var(--text-secondary); text-decoration: none;">Home</a></li>
+                <li style="margin: 0 var(--space-2);">/</li>
+                <li><a href="solutions.html" style="color: var(--text-secondary); text-decoration: none;">Services</a></li>
+                <li style="margin: 0 var(--space-2);">/</li>
+                <li style="color: var(--accent-orange); font-weight: 500;" aria-current="page">Specialty Construction & Technical Services</li>
+            </ol>
+        </div>
+    </nav>
 
     <!-- Main Content -->
     <main>

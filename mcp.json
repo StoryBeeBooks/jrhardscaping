@@ -1,0 +1,82 @@
+{
+  "name": "JR Hardscaping",
+  "description": "Premium hardscaping solutions in Toronto & GTA. Expert interlocking driveways, retaining walls, outdoor living spaces, and specialty construction services.",
+  "version": "1.0.0",
+  "url": "https://jrhardscaping.com",
+  "type": "business",
+  "category": "Construction & Landscaping",
+  "services": [
+    "Hardscape Construction & Engineering",
+    "Outdoor Living & Lifestyle Features",
+    "Specialty Construction & Technical Services",
+    "Interlocking Driveways",
+    "Retaining Walls",
+    "Patios & Walkways",
+    "Pool Surrounds",
+    "Outdoor Kitchens",
+    "Fire Features",
+    "Heated Snow-Melt Systems",
+    "Drainage Solutions",
+    "Green Roof Systems"
+  ],
+  "locations": {
+    "primary": {
+      "city": "Toronto",
+      "province": "Ontario",
+      "country": "Canada",
+      "postalCode": "L4K 2W6",
+      "address": "Unit 2 - 1300 Alness Street"
+    },
+    "serviceAreas": [
+      "Toronto",
+      "Vaughan",
+      "Mississauga",
+      "Richmond Hill",
+      "Markham",
+      "Greater Toronto Area (GTA)"
+    ]
+  },
+  "contact": {
+    "phone": "+1 (647) 995-4576",
+    "email": "Frankie.Li@jrpartners.ca",
+    "website": "https://jrhardscaping.com"
+  },
+  "socialMedia": {
+    "facebook": "",
+    "instagram": "",
+    "linkedin": ""
+  },
+  "businessHours": {
+    "monday": "8:00 AM - 6:00 PM",
+    "tuesday": "8:00 AM - 6:00 PM",
+    "wednesday": "8:00 AM - 6:00 PM",
+    "thursday": "8:00 AM - 6:00 PM",
+    "friday": "8:00 AM - 6:00 PM",
+    "saturday": "9:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "keywords": [
+    "hardscaping Toronto",
+    "interlocking driveway GTA",
+    "retaining walls Toronto",
+    "outdoor kitchen Vaughan",
+    "heated driveway Toronto",
+    "patio installation Mississauga",
+    "fire pit installation Richmond Hill",
+    "pool surround Markham",
+    "drainage solutions Toronto",
+    "green roof GTA"
+  ],
+  "certifications": [
+    "TSSA Certified",
+    "Ontario Building Code Compliant",
+    "Professional Engineers (P.Eng) on Staff"
+  ],
+  "company": {
+    "legalName": "JR Stone Elite Ltd.",
+    "operatingAs": "JR Hardscaping",
+    "parentCompany": "JR Partners",
+    "yearEstablished": 2005,
+    "experience": "20+ years"
+  }
+}
