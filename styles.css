@@ -663,10 +663,18 @@ pre code {
     border-radius: var(--radius-full);
 }
 
-/* Force hamburger to always be black */
-.main-header .hamburger-line,
-.main-header.scrolled .hamburger-line {
-    background-color: var(--charcoal) !important;
+/* Force hamburger to always be black - highest specificity */
+.main-header .hamburger-menu .hamburger-line,
+.main-header.scrolled .hamburger-menu .hamburger-line,
+.hamburger-menu .hamburger-line,
+.hamburger-line {
+    background-color: #2d2d2d !important;
+}
+
+/* Ensure hamburger stays black even when active */
+.main-header .hamburger-menu.active .hamburger-line,
+.hamburger-menu.active .hamburger-line {
+    background-color: #2d2d2d !important;
 }
 
 .hamburger-menu.active .hamburger-line:nth-child(1) {
