@@ -569,6 +569,46 @@ pre code {
     letter-spacing: -0.03em;
 }
 
+/* Language Switcher Button */
+.lang-switcher {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    background: var(--accent-blue);
+    color: white;
+    font-weight: 600;
+    font-size: 0.95rem;
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    transition: all var(--transition-smooth);
+    margin-right: var(--space-4);
+    white-space: nowrap;
+}
+
+.lang-switcher:hover {
+    background: var(--charcoal);
+    color: white;
+    transform: translateY(-1px);
+}
+
+.mobile-lang-switcher {
+    display: inline-block;
+    padding: 12px 24px;
+    background: var(--accent-blue);
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    margin-top: var(--space-6);
+    transition: all var(--transition-smooth);
+}
+
+.mobile-lang-switcher:hover {
+    background: var(--charcoal);
+    color: white;
+}
+
 /* Desktop Navigation Menu - Sophisticated */
 .nav-menu {
     display: none; /* Hidden by default, use hamburger menu for all screens */
