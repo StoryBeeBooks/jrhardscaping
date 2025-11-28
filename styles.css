@@ -1706,19 +1706,15 @@ tbody tr:hover {
 
 /* Tablet Devices - Footer and Card Responsive Text */
 @media (max-width: 992px) {
-    .footer-brand {
-        font-size: var(--text-xl);
-    }
-    
-    .footer-subtext,
+    .footer-tagline,
     .footer-link,
     .address-line,
     .contact-info {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
     }
     
     .footer-heading {
-        font-size: 1rem;
+        font-size: 0.75rem;
     }
     
     .card-title {
