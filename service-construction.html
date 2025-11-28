@@ -359,7 +359,7 @@
                     </p>
                 </div>
                 <div style="max-width: 1000px; margin: 0 auto; border-radius: var(--radius-xl); overflow: hidden; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);">
-                    <video controls autoplay muted loop playsinline style="width: 100%; height: auto; display: block;">
+                    <video controls muted loop playsinline style="width: 100%; height: auto; display: block;">
                         <source src="videos/pave.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
@@ -390,35 +390,7 @@
     <!-- Footer -->
     <div id="footer-placeholder"></div>
 
-    <!-- Scripts -->
-    <script>
-        // Load navigation
-        fetch('navigation.html')
-            .then(response => response.text())
-            .then(data => {
-                const parser = new DOMParser();
-                const doc = parser.parseFromString(data, 'text/html');
-                const header = doc.querySelector('header');
-                const script = doc.querySelector('script');
-                
-                document.getElementById('nav-placeholder').appendChild(header);
-                
-                // Execute the navigation script
-                if (script) {
-                    eval(script.textContent);
-                }
-            });
-
-        // Load footer
-        fetch('footer.html')
-            .then(response => response.text())
-            .then(data => {
-                const parser = new DOMParser();
-                const doc = parser.parseFromString(data, 'text/html');
-                const footer = doc.querySelector('footer');
-                
-                document.getElementById('footer-placeholder').appendChild(footer);
-            });
-    </script>
+    <!-- Load Navigation and Footer -->
+    <script src="load-components.js"></script>
 </body>
 </html>
