@@ -133,39 +133,8 @@
     </script>
 </head>
 <body>
-    <!-- Sticky Navigation Header -->
-    <header class="main-header" id="mainHeader">
-        <nav class="navigation-bar">
-            <div class="nav-container">
-                <div class="logo-section">
-                    <a href="index.html" class="logo-link">
-                        <img src="images/logo.svg" alt="JR Hardscaping Logo" class="logo">
-                    </a>
-                </div>
-                <ul class="nav-menu" id="navMenu">
-                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="solutions.html" class="nav-link">Solutions</a></li>
-                    <li class="nav-item"><a href="products.html" class="nav-link">Products</a></li>
-                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-                </ul>
-                <button class="hamburger-menu" id="hamburgerMenu" aria-label="Toggle navigation menu" aria-expanded="false">
-                    <span class="hamburger-line"></span>
-                    <span class="hamburger-line"></span>
-                    <span class="hamburger-line"></span>
-                </button>
-            </div>
-        </nav>
-        <div class="mobile-menu-overlay" id="mobileMenuOverlay">
-            <ul class="mobile-nav-menu">
-                <li class="mobile-nav-item"><a href="index.html" class="mobile-nav-link">Home</a></li>
-                <li class="mobile-nav-item"><a href="solutions.html" class="mobile-nav-link">Solutions</a></li>
-                <li class="mobile-nav-item"><a href="products.html" class="mobile-nav-link">Products</a></li>
-                <li class="mobile-nav-item"><a href="about.html" class="mobile-nav-link">About</a></li>
-                <li class="mobile-nav-item"><a href="contact.html" class="mobile-nav-link">Contact</a></li>
-            </ul>
-        </div>
-    </header>
+    <!-- Navigation Placeholder -->
+    <div id="nav-placeholder"></div>
 
     <!-- Main Content -->
     <main>
@@ -457,45 +426,45 @@
                         Why Choose JR Hardscaping
                     </h2>
 
-                    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--spacing-xl);">
-                        <div style="background: white; padding: var(--spacing-lg); border-left: 4px solid var(--accent-blue);">
-                            <h3 style="font-size: 1.3rem; margin-bottom: var(--spacing-sm); color: var(--charcoal);">Engineering-First Methodology</h3>
-                            <p style="color: var(--text-secondary); line-height: 1.8;">
+                    <div class="feature-grid">
+                        <div class="feature-box">
+                            <h3>Engineering-First Methodology</h3>
+                            <p>
                                 We apply civil engineering principles to every project—geotechnical analysis, structural calculations, laser-guided grading, and compaction testing to ensure 30+ year design life.
                             </p>
                         </div>
 
-                        <div style="background: white; padding: var(--spacing-lg); border-left: 4px solid var(--accent-blue);">
-                            <h3 style="font-size: 1.3rem; margin-bottom: var(--spacing-sm); color: var(--charcoal);">20+ Years of GTA Expertise</h3>
-                            <p style="color: var(--text-secondary); line-height: 1.8;">
+                        <div class="feature-box">
+                            <h3>20+ Years of GTA Expertise</h3>
+                            <p>
                                 Hundreds of completed projects across the GTA give us intimate knowledge of local soil conditions, municipal bylaws, conservation authority requirements, and Canadian climate challenges.
                             </p>
                         </div>
 
-                        <div style="background: white; padding: var(--spacing-lg); border-left: 4px solid var(--accent-blue);">
-                            <h3 style="font-size: 1.3rem; margin-bottom: var(--spacing-sm); color: var(--charcoal);">Premium Material Partnerships</h3>
-                            <p style="color: var(--text-secondary); line-height: 1.8;">
+                        <div class="feature-box">
+                            <h3>Premium Material Partnerships</h3>
+                            <p>
                                 Direct relationships with Techo-Bloc and industry-leading stone suppliers ensure access to the highest quality pavers, slabs, and natural stone with full material warranties.
                             </p>
                         </div>
 
-                        <div style="background: white; padding: var(--spacing-lg); border-left: 4px solid var(--accent-blue);">
-                            <h3 style="font-size: 1.3rem; margin-bottom: var(--spacing-sm); color: var(--charcoal);">Transparent Communication</h3>
-                            <p style="color: var(--text-secondary); line-height: 1.8;">
+                        <div class="feature-box">
+                            <h3>Transparent Communication</h3>
+                            <p>
                                 We explain the "why" behind every decision—excavation depth, drainage routing, material selection. You'll understand exactly what we're building and why it matters.
                             </p>
                         </div>
 
-                        <div style="background: white; padding: var(--spacing-lg); border-left: 4px solid var(--accent-blue);">
-                            <h3 style="font-size: 1.3rem; margin-bottom: var(--spacing-sm); color: var(--charcoal);">Comprehensive Quality Systems</h3>
-                            <p style="color: var(--text-secondary); line-height: 1.8;">
+                        <div class="feature-box">
+                            <h3>Comprehensive Quality Systems</h3>
+                            <p>
                                 Rigorous 10-stage process from site assessment through final inspection. Every project includes workmanship warranties, material certifications, and maintenance documentation.
                             </p>
                         </div>
 
-                        <div style="background: white; padding: var(--spacing-lg); border-left: 4px solid var(--accent-blue);">
-                            <h3 style="font-size: 1.3rem; margin-bottom: var(--spacing-sm); color: var(--charcoal);">Long-Term Partnership</h3>
-                            <p style="color: var(--text-secondary); line-height: 1.8;">
+                        <div class="feature-box">
+                            <h3>Long-Term Partnership</h3>
+                            <p>
                                 We're not a fly-by-night contractor. Many clients return for expansions or refer their neighbors. We're here for the lifetime of your hardscape—5, 10, and 20 years later.
                             </p>
                         </div>
@@ -519,101 +488,11 @@
         </section>
     </main>
 
-    <!-- Global Footer -->
-    <footer class="main-footer">
-        <div class="footer-container">
-            <!-- Column 1: Identity & Brand -->
-            <div class="footer-identity">
-                <div class="footer-logo-section">
-                    <img src="images/logo.svg" alt="JR Hardscaping Logo" class="footer-logo">
-                </div>
-                <p class="footer-tagline">Premium hardscape solutions for the Greater Toronto Area</p>
-            </div>
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
 
-            <!-- Column 2: Services -->
-            <div class="footer-sitemap">
-                <h4 class="footer-heading">Services</h4>
-                <ul class="footer-links">
-                    <li><a href="service-construction.html" class="footer-link">Hardscape Construction</a></li>
-                    <li><a href="service-outdoor-living.html" class="footer-link">Outdoor Living</a></li>
-                    <li><a href="service-site-management.html" class="footer-link">Technical Services</a></li>
-                </ul>
-            </div>
-
-            <!-- Column 3: Quick Links -->
-            <div class="footer-sitemap">
-                <h4 class="footer-heading">Company</h4>
-                <ul class="footer-links">
-                    <li><a href="about.html" class="footer-link">About Us</a></li>
-                    <li><a href="contact.html" class="footer-link">Contact</a></li>
-                    <li><a href="faq.html" class="footer-link">FAQ</a></li>
-                    <li><a href="policies.html" class="footer-link">Policies</a></li>
-                </ul>
-            </div>
-
-            <!-- Column 4: Contact -->
-            <div class="footer-contact">
-                <h4 class="footer-heading">Contact</h4>
-                <address class="footer-address">
-                    <p class="address-line">Unit 2 - 1300 Alness Street<br>Toronto, ON L4K 2W6</p>
-                    <p class="contact-info">
-                        <a href="tel:+16479954576" class="contact-link">+1 (647) 995-4576</a>
-                    </p>
-                    <p class="contact-info">
-                        <a href="mailto:Frankie.Li@jrpartners.ca" class="contact-link">Frankie.Li@jrpartners.ca</a>
-                    </p>
-                </address>
-            </div>
-        </div>
-
-        <!-- Copyright Bar -->
-        <div class="footer-bottom">
-            <p class="footer-copyright">&copy; 2025 JR Stone Elite Ltd. All rights reserved.</p>
-            <p class="footer-service-areas">Serving Toronto, Vaughan, Mississauga, Richmond Hill, Markham & GTA</p>
-        </div>
-    </footer>
-
-    <script>
-        window.addEventListener('scroll', function() {
-            const header = document.getElementById('mainHeader');
-            if (window.scrollY > 50) {
-                header.classList.add('scrolled');
-            } else {
-                header.classList.remove('scrolled');
-            }
-        });
-
-        const hamburgerMenu = document.getElementById('hamburgerMenu');
-        const mobileMenuOverlay = document.getElementById('mobileMenuOverlay');
-        const body = document.body;
-
-        hamburgerMenu.addEventListener('click', function() {
-            const isExpanded = hamburgerMenu.getAttribute('aria-expanded') === 'true';
-            hamburgerMenu.setAttribute('aria-expanded', !isExpanded);
-            hamburgerMenu.classList.toggle('active');
-            mobileMenuOverlay.classList.toggle('active');
-            body.classList.toggle('menu-open');
-        });
-
-        const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
-        mobileNavLinks.forEach(link => {
-            link.addEventListener('click', function() {
-                hamburgerMenu.classList.remove('active');
-                mobileMenuOverlay.classList.remove('active');
-                body.classList.remove('menu-open');
-                hamburgerMenu.setAttribute('aria-expanded', 'false');
-            });
-        });
-
-        mobileMenuOverlay.addEventListener('click', function(e) {
-            if (e.target === mobileMenuOverlay) {
-                hamburgerMenu.classList.remove('active');
-                mobileMenuOverlay.classList.remove('active');
-                body.classList.remove('menu-open');
-                hamburgerMenu.setAttribute('aria-expanded', 'false');
-            }
-        });
-    </script>
+    <!-- Load Navigation and Footer Components -->
+    <script src="load-components.js"></script>
 </body>
 </html>
 
