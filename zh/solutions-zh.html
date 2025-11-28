@@ -79,6 +79,28 @@
       }
     }
     </script>
+
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "首页",
+          "item": "https://jrhardscaping.com/zh/index-zh.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "解决方案",
+          "item": "https://jrhardscaping.com/zh/solutions-zh.html"
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
     <!-- Navigation Placeholder -->
@@ -248,9 +270,6 @@
                         </div>
                     </div>
 
-                    <!-- Additional solutions would continue with same pattern... -->
-                    <!-- For brevity, I'll create a few more and indicate the pattern -->
-
                     <!-- Solution 3: Driveway Stabilization -->
                     <div class="solution-block" id="solution3" style="display: none;">
                         <h2 style="font-size: 2.2rem; margin-bottom: var(--spacing-lg); color: var(--charcoal); border-bottom: 3px solid var(--accent-orange); padding-bottom: var(--spacing-sm);">
@@ -288,9 +307,6 @@
                             </p>
                         </div>
                     </div>
-
-                    <!-- Solution 4-15 would follow the same pattern with their respective content -->
-                    <!-- Due to space constraints, I'm providing a template structure -->
 
                     <!-- Solution 4: Slope Management -->
                     <div class="solution-block" id="solution4" style="display: none;">
@@ -404,9 +420,6 @@
                             </p>
                         </div>
                     </div>
-
-                    <!-- Solutions 7-15 continue with same pattern -->
-                    <!-- For the complete implementation, each remaining solution would be added here -->
 
                     <!-- Solution 7: Privacy & Feature Walls -->
                     <div class="solution-block" id="solution7" style="display: none;">
