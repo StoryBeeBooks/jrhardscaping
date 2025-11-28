@@ -29,17 +29,18 @@
     --charcoal: #2d2d2d;
     --deep-charcoal: #1a1a1a;
     
-    /* Elegant Accent Colors */
-    --accent-blue: #2563eb;
-    --accent-blue-dark: #1e40af;
-    --accent-blue-light: #3b82f6;
-    --accent-teal: #0d9488;
-    --accent-emerald: #10b981;
-    --accent-amber: #f59e0b;
-    --accent-rose: #e11d48;
-    --accent-purple: #7c3aed;
-    --accent-gray: #6b7280;
-    --steel-gray: #475569;
+    /* Elegant Pastel Accent Colors */
+    --accent-orange: #f8a69e;
+    --accent-blue: #a8c7e7;
+    --accent-blue-dark: #7ba3d1;
+    --accent-blue-light: #c5dff5;
+    --accent-teal: #9dd4cf;
+    --accent-emerald: #a7d9c9;
+    --accent-amber: #f5d39e;
+    --accent-rose: #f5b3c1;
+    --accent-purple: #c9b3e8;
+    --accent-gray: #b8bec7;
+    --steel-gray: #98a2ae;
     
     /* Shadows - Subtle Depth */
     --shadow-subtle: rgba(0, 0, 0, 0.04);
