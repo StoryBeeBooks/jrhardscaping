@@ -5,7 +5,7 @@
   
   <!-- Homepage - Highest Priority -->
   <url>
-    <loc>https://jrhardscaping.com/index.html</loc>
+    <loc>https://jrhardscaping.com/index</loc>
     <lastmod>2025-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -13,21 +13,21 @@
   
   <!-- Main Service Pages - High Priority -->
   <url>
-    <loc>https://jrhardscaping.com/service-construction.html</loc>
+    <loc>https://jrhardscaping.com/service-construction</loc>
     <lastmod>2025-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://jrhardscaping.com/service-outdoor-living.html</loc>
+    <loc>https://jrhardscaping.com/service-outdoor-living</loc>
     <lastmod>2025-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://jrhardscaping.com/service-site-management.html</loc>
+    <loc>https://jrhardscaping.com/service-site-management</loc>
     <lastmod>2025-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -35,28 +35,28 @@
   
   <!-- Core Pages - High Priority -->
   <url>
-    <loc>https://jrhardscaping.com/solutions.html</loc>
+    <loc>https://jrhardscaping.com/solutions</loc>
     <lastmod>2025-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://jrhardscaping.com/products.html</loc>
+    <loc>https://jrhardscaping.com/products</loc>
     <lastmod>2025-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://jrhardscaping.com/contact.html</loc>
+    <loc>https://jrhardscaping.com/contact</loc>
     <lastmod>2025-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://jrhardscaping.com/about.html</loc>
+    <loc>https://jrhardscaping.com/about</loc>
     <lastmod>2025-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -64,14 +64,14 @@
   
   <!-- Informational Pages - Medium Priority -->
   <url>
-    <loc>https://jrhardscaping.com/faq.html</loc>
+    <loc>https://jrhardscaping.com/faq</loc>
     <lastmod>2025-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://jrhardscaping.com/policies.html</loc>
+    <loc>https://jrhardscaping.com/policies</loc>
     <lastmod>2025-11-28</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
@@ -79,7 +79,7 @@
   
   <!-- Chinese Homepage -->
   <url>
-    <loc>https://jrhardscaping.com/zh/index-zh.html</loc>
+    <loc>https://jrhardscaping.com/zh/index-zh</loc>
     <lastmod>2025-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -87,19 +87,19 @@
 
   <!-- Chinese Service Pages -->
   <url>
-    <loc>https://jrhardscaping.com/zh/service-construction-zh.html</loc>
+    <loc>https://jrhardscaping.com/zh/service-construction-zh</loc>
     <lastmod>2025-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://jrhardscaping.com/zh/service-outdoor-living-zh.html</loc>
+    <loc>https://jrhardscaping.com/zh/service-outdoor-living-zh</loc>
     <lastmod>2025-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://jrhardscaping.com/zh/service-site-management-zh.html</loc>
+    <loc>https://jrhardscaping.com/zh/service-site-management-zh</loc>
     <lastmod>2025-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -107,25 +107,25 @@
 
   <!-- Chinese Core Pages -->
   <url>
-    <loc>https://jrhardscaping.com/zh/solutions-zh.html</loc>
+    <loc>https://jrhardscaping.com/zh/solutions-zh</loc>
     <lastmod>2025-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jrhardscaping.com/zh/products-zh.html</loc>
+    <loc>https://jrhardscaping.com/zh/products-zh</loc>
     <lastmod>2025-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jrhardscaping.com/zh/contact-zh.html</loc>
+    <loc>https://jrhardscaping.com/zh/contact-zh</loc>
     <lastmod>2025-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jrhardscaping.com/zh/about-zh.html</loc>
+    <loc>https://jrhardscaping.com/zh/about-zh</loc>
     <lastmod>2025-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -133,13 +133,13 @@
 
   <!-- Chinese Informational Pages -->
   <url>
-    <loc>https://jrhardscaping.com/zh/faq-zh.html</loc>
+    <loc>https://jrhardscaping.com/zh/faq-zh</loc>
     <lastmod>2025-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jrhardscaping.com/zh/thank-you-zh.html</loc>
+    <loc>https://jrhardscaping.com/zh/thank-you-zh</loc>
     <lastmod>2025-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
