@@ -663,6 +663,12 @@ pre code {
     border-radius: var(--radius-full);
 }
 
+/* Force hamburger to always be black */
+.main-header .hamburger-line,
+.main-header.scrolled .hamburger-line {
+    background-color: var(--charcoal) !important;
+}
+
 .hamburger-menu.active .hamburger-line:nth-child(1) {
     transform: translateY(9px) rotate(45deg);
 }
