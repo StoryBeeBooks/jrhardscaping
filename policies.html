@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Legal policies for JR Hardscaping including Terms of Use, Privacy Policy, Cookies Policy, Accessibility Statement, and Disclaimer.">
+    <title>Policies - JR Hardscaping | Legal Information</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .policies-layout {
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            gap: var(--spacing-xl);
+            margin-top: var(--spacing-xl);
+            align-items: start;
+        }
+
+        /* Side Navigation */
+        .policies-sidebar {
+            position: sticky;
+            top: 110px;
+            background-color: var(--off-white);
+            padding: var(--spacing-md);
+            border-radius: 8px;
+            border: 1px solid var(--light-gray);
+        }
+
+        .policies-sidebar h3 {
+            font-size: 1.1rem;
+            margin-bottom: var(--spacing-md);
+            color: var(--charcoal);
+            font-weight: 500;
+        }
+
+        .sidebar-nav {
+            list-style: none;
+        }
+
+        .sidebar-nav li {
+            margin-bottom: var(--spacing-xs);
+        }
+
+        .sidebar-nav a {
+            display: block;
+            padding: var(--spacing-xs) var(--spacing-sm);
+            color: var(--accent-stone);
+            border-radius: 4px;
+            transition: var(--transition-fast);
+            font-size: 0.95rem;
+        }
+
+        .sidebar-nav a:hover,
+        .sidebar-nav a.active {
+            background-color: var(--accent-blue);
+            color: var(--primary-white);
+        }
+
+        /* Content Area */
+        .policies-content {
+            background-color: var(--primary-white);
+            padding: var(--spacing-xl);
+            border-radius: 8px;
+            border: 1px solid var(--light-gray);
+        }
+
+        .policy-section {
+            margin-bottom: var(--spacing-2xl);
+            padding-bottom: var(--spacing-2xl);
+            border-bottom: 1px solid var(--light-gray);
+            scroll-margin-top: 110px;
+        }
+
+        .policy-section:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .policy-section h2 {
+            font-size: 2rem;
+            margin-bottom: var(--spacing-md);
+            color: var(--charcoal);
+            font-weight: 400;
+        }
+
+        .policy-section h3 {
+            font-size: 1.4rem;
+            margin-top: var(--spacing-lg);
+            margin-bottom: var(--spacing-sm);
+            color: var(--dark-gray);
+            font-weight: 500;
+        }
+
+        .policy-section h4 {
+            font-size: 1.1rem;
+            margin-top: var(--spacing-md);
+            margin-bottom: var(--spacing-xs);
+            color: var(--dark-gray);
+            font-weight: 500;
+        }
+
+        .policy-section p {
+            margin-bottom: var(--spacing-sm);
+            line-height: 1.8;
+            color: var(--accent-stone);
+        }
+
+        .policy-section ul,
+        .policy-section ol {
+            margin-left: var(--spacing-md);
+            margin-bottom: var(--spacing-sm);
+            color: var(--accent-stone);
+        }
+
+        .policy-section li {
+            margin-bottom: var(--spacing-xs);
+            line-height: 1.7;
+        }
+
+        .last-updated {
+            font-style: italic;
+            color: var(--medium-gray);
+            font-size: 0.9rem;
+            margin-bottom: var(--spacing-md);
+        }
+
+        /* Mobile Sidebar Toggle */
+        .sidebar-toggle {
+            display: none;
+            background-color: var(--accent-blue);
+            color: var(--primary-white);
+            padding: var(--spacing-sm) var(--spacing-md);
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-bottom: var(--spacing-md);
+            width: 100%;
+            font-size: 1rem;
+        }
+
+        @media (max-width: 968px) {
+            .policies-layout {
+                grid-template-columns: 1fr;
+            }
+
+            .sidebar-toggle {
+                display: block;
+            }
+
+            .policies-sidebar {
+                position: static;
+                display: none;
+            }
+
+            .policies-sidebar.active {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Sticky Navigation Header -->
+    <header class="main-header" id="mainHeader">
+        <nav class="navigation-bar">
+            <div class="nav-container">
+                <div class="logo-section">
+                    <a href="index.html" class="logo-link">
+                        <img src="images/logo.svg" alt="JR Hardscaping Logo" class="logo">
+                    </a>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="solutions.html" class="nav-link">Solutions</a></li>
+                    <li class="nav-item"><a href="products.html" class="nav-link">Products</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <button class="hamburger-menu" id="hamburgerMenu" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </nav>
+        <div class="mobile-menu-overlay" id="mobileMenuOverlay">
+            <ul class="mobile-nav-menu">
+                <li class="mobile-nav-item"><a href="index.html" class="mobile-nav-link">Home</a></li>
+                <li class="mobile-nav-item"><a href="solutions.html" class="mobile-nav-link">Solutions</a></li>
+                <li class="mobile-nav-item"><a href="products.html" class="mobile-nav-link">Products</a></li>
+                <li class="mobile-nav-item"><a href="about.html" class="mobile-nav-link">About</a></li>
+                <li class="mobile-nav-item"><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="hero-section" style="min-height: 40vh;">
+            <div class="hero-content">
+                <h1>Legal Policies</h1>
+                <p class="hero-subtitle">JR Stone Elite Ltd. - Transparency and Legal Compliance</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <!-- Mobile Sidebar Toggle -->
+                <button class="sidebar-toggle" id="sidebarToggle">View Policy Menu</button>
+
+                <div class="policies-layout">
+                    <!-- Side Navigation -->
+                    <aside class="policies-sidebar" id="policiesSidebar">
+                        <h3>Quick Navigation</h3>
+                        <nav>
+                            <ul class="sidebar-nav">
+                                <li><a href="#terms-of-use" class="policy-nav-link active">Terms of Use</a></li>
+                                <li><a href="#privacy-policy" class="policy-nav-link">Privacy Policy</a></li>
+                                <li><a href="#cookies-policy" class="policy-nav-link">Cookies Policy</a></li>
+                                <li><a href="#accessibility" class="policy-nav-link">Accessibility</a></li>
+                                <li><a href="#disclaimer" class="policy-nav-link">Disclaimer</a></li>
+                            </ul>
+                        </nav>
+                    </aside>
+
+                    <!-- Policies Content -->
+                    <div class="policies-content">
+                        <!-- TERMS OF USE -->
+                        <section id="terms-of-use" class="policy-section">
+                            <h2>Terms of Use</h2>
+                            <p class="last-updated">Last Updated: November 27, 2025</p>
+                            
+                            <p>Welcome to www.jrhardscaping.ca (the "Website"). This Website is owned and operated by JR Stone Elite Ltd. ("Company", "we", "us", or "our"), doing business as JR Hardscaping. We are a member of the JR Partners group of companies.</p>
+                            <p>By accessing, browsing, or using this Website, you acknowledge that you have read, understood, and agree to be bound by these Terms of Use ("Terms"). If you do not agree to these Terms, you must not access or use the Website.</p>
+
+                            <h3>1. Corporate Identity & Scope</h3>
+                            <p>You acknowledge that "JR Hardscaping" is a registered trade name and operating division of JR Stone Elite Ltd. All contracts, warranties, and financial transactions initiated through this Website or subsequent consultations are legally bound to JR Stone Elite Ltd., not the "JR Hardscaping" brand name nor the "JR Partners" holding group, unless explicitly stated in a separate written agreement.</p>
+
+                            <h3>2. Intellectual Property Rights</h3>
+                            <p>The content, layout, design, data, databases, and graphics on this Website are protected by Canadian and international intellectual property laws.</p>
+                            <ul>
+                                <li><strong>Ownership:</strong> All content, including but not limited to text, photographs of projects, 3D renderings, logos (including the JR Hardscaping and JR Partners marks), audio, video, and code is the exclusive property of JR Stone Elite Ltd. or its licensors.</li>
+                                <li><strong>Restrictions:</strong> You may not reproduce, distribute, modify, create derivative works of, publicly display, or exploit any part of this Website without our express written permission.</li>
+                                <li><strong>Commercial Use:</strong> The use of our project photography or "Knowledge Hub" content for commercial purposes (e.g., by other contractors or real estate agents) is strictly prohibited and will be pursued legally.</li>
+                            </ul>
+
+                            <h3>3. Products & Material Disclaimers</h3>
+                            <p>Our Website features a digital catalog of natural stone, pavers, and hardscaping materials. By viewing these products, you acknowledge the following:</p>
+                            <ul>
+                                <li><strong>Natural Variation:</strong> Natural stone (granite, limestone, sandstone) is a product of nature. The photos on this Website are representations only. Actual products may vary in color, veining, texture, and finish. We do not guarantee that the stone delivered will be an exact match to the digital image on your screen.</li>
+                                <li><strong>Availability:</strong> Products listed (including specific "CornerStone" or "LuxeStone" inventory) are subject to availability and supply chain fluctuations. We reserve the right to discontinue products without notice.</li>
+                                <li><strong>Pricing:</strong> This Website does not display pricing. Any pricing discussed during consultations is subject to a formal written quote.</li>
+                            </ul>
+
+                            <h3>4. The "Solutions" & "Problem Picker" Tools</h3>
+                            <p>The "Solutions" section and "Problem Picker" dropdown tools on our Website are designed for informational and diagnostic purposes only.</p>
+                            <ul>
+                                <li><strong>No Professional Advice:</strong> The recommendations provided by the Website (e.g., suggesting "Interlocking Pavers" for a cracked driveway) do not constitute a formal engineering assessment.</li>
+                                <li><strong>Site Conditions:</strong> Every property is unique. A digital recommendation cannot account for specific soil conditions, water tables, or municipal zoning bylaws on your specific lot. A solution is only valid after an on-site assessment by a JR Hardscaping project manager.</li>
+                            </ul>
+
+                            <h3>5. Estimates & Consultations</h3>
+                            <p>Submitting a form via the "Contact" or "Get a Quote" sections does not create a binding construction contract.</p>
+                            <ul>
+                                <li><strong>Estimates:</strong> Any information provided prior to a signed contract is a non-binding estimate.</li>
+                                <li><strong>Binding Agreement:</strong> A binding legal relationship for construction or design services only commences upon the signing of a formal Construction Agreement or Design Retainer by both you and an officer of JR Stone Elite Ltd.</li>
+                            </ul>
+
+                            <h3>6. User Conduct</h3>
+                            <p>By using this Website, you agree not to:</p>
+                            <ul>
+                                <li>Use the Website for any unlawful purpose or in violation of any municipal, provincial, or federal law.</li>
+                                <li>Attempt to reverse engineer, decompile, or hack any aspect of the Website or the mcp.json data structure.</li>
+                                <li>Submit false or misleading information through our lead capture forms.</li>
+                                <li>Use any automated bot, spider, or scraper to access the Website for any purpose.</li>
+                            </ul>
+
+                            <h3>7. Third-Party Links & The JR Partners Ecosystem</h3>
+                            <p>This Website contains links to other websites, including those of our affiliates (LuxeStone, CornerStone, Era Cable, etc.) and third-party manufacturers.</p>
+                            <ul>
+                                <li><strong>No Liability:</strong> While these companies are part of the JR Partners ecosystem, they may operate under their own Terms of Use. We are not responsible for the content, privacy policies, or practices of any third-party websites.</li>
+                                <li><strong>External Content:</strong> Links to municipal permit offices (e.g., City of Toronto) are provided for convenience only. We do not control government websites and are not responsible for the accuracy of their information.</li>
+                            </ul>
+
+                            <h3>8. Disclaimer of Warranties</h3>
+                            <p>THE WEBSITE IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS. JR STONE ELITE LTD. DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE regarding the Website operation. We do not warrant that the Website will be error-free, secure, or uninterrupted.</p>
+
+                            <h3>9. Limitation of Liability</h3>
+                            <p>TO THE FULLEST EXTENT PERMITTED BY LAW, JR STONE ELITE LTD., ITS OFFICERS, DIRECTORS, EMPLOYEES, AND THE JR PARTNERS GROUP SHALL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING OUT OF YOUR ACCESS TO, OR USE OF, THE WEBSITE. This includes, but is not limited to, damages for loss of profits, data, or goodwill.</p>
+
+                            <h3>10. Indemnification</h3>
+                            <p>You agree to defend, indemnify, and hold harmless JR Stone Elite Ltd. and its affiliates from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees (including reasonable legal fees) resulting from your violation of these Terms or your use of the Website.</p>
+
+                            <h3>11. Governing Law</h3>
+                            <p>These Terms shall be governed by and construed in accordance with the laws of the Province of Ontario and the federal laws of Canada applicable therein. Any legal action or proceeding related to this Website shall be brought exclusively in the courts of Toronto, Ontario.</p>
+
+                            <h3>12. Contact Information</h3>
+                            <p>If you have questions about these Terms of Use, please <a href="contact.html" style="color: var(--accent-blue);">contact us</a> at:</p>
+                            <p><strong>JR Stone Elite Ltd.</strong><br>
+                            Operating as JR Hardscaping</p>
+                        </section>
+
+                        <!-- PRIVACY POLICY -->
+                        <section id="privacy-policy" class="policy-section">
+                            <h2>Privacy Policy</h2>
+                            <p class="last-updated">Last Updated: November 27, 2025</p>
+                            
+                            <p>JR Stone Elite Ltd. ("Company", "we", "us", or "our"), operating as JR Hardscaping, is committed to maintaining the accuracy, confidentiality, and security of your personally identifiable information ("Personal Information").</p>
+                            <p>This Privacy Policy describes how we collect, use, and disclose the Personal Information you provide when using our website www.jrhardscaping.ca (the "Website") and interacting with our services.</p>
+                            <p>By accessing our Website or submitting a "Contact," "Consultation," or "Solution" form, you consent to the collection, use, disclosure, and retention of your information as set out in this policy.</p>
+
+                            <h3>1. Information We Collect</h3>
+                            <p>We collect information to provide our specialized hardscaping and construction services. This includes:</p>
+                            
+                            <h4>A. Personal Information You Provide Directly</h4>
+                            <ul>
+                                <li><strong>Identity Data:</strong> First name, last name.</li>
+                                <li><strong>Contact Data:</strong> Email address, telephone number.</li>
+                                <li><strong>Property Data:</strong> Home address and postal code. This is strictly required to determine if your property falls within our service area (e.g., GTA, Vaughan, Richmond Hill) and to assess local municipal zoning bylaws.</li>
+                                <li><strong>Project Data:</strong> Information submitted via our "Problem Picker" tool, contact forms, or project type dropdowns. This includes details about your property conditions (e.g., "Sinking Driveway"), budget estimates, and design preferences.</li>
+                            </ul>
+
+                            <h4>B. Automated Technical Data</h4>
+                            <ul>
+                                <li><strong>Device & Usage Data:</strong> IP address, browser type, operating system, and referral URLs.</li>
+                                <li><strong>Geo-Location Data:</strong> We may approximate your location based on your IP address to serve relevant local content.</li>
+                                <li><strong>Tracking Technologies:</strong> We use cookies, pixels, and scripts to analyze trends. This includes data collected via Google Analytics and Microsoft Universal Event Tracking (UET) tags.</li>
+                            </ul>
+
+                            <h3>2. How We Use Your Information</h3>
+                            <p>We do not sell your data to unrelated third parties. We use your data for specific business purposes:</p>
+                            <ul>
+                                <li><strong>Service Delivery:</strong> To schedule site visits, issue estimates, and execute construction contracts.</li>
+                                <li><strong>Lead Qualification:</strong> To analyze your "Project Type" and "Service Needed" submissions to determine if your project aligns with our scope and availability.</li>
+                                <li><strong>Communication:</strong> To send you quote confirmations, project updates (e.g., photo logs of your construction), and warranty documentation.</li>
+                                <li><strong>Search & Performance Optimization:</strong> To understand how users find us on search engines like Google and Bing, helping us improve our website architecture.</li>
+                            </ul>
+
+                            <h3>3. Disclosure Within the JR Partners Group</h3>
+                            <p><strong>This is a key term of our service:</strong></p>
+                            <p>You acknowledge that JR Hardscaping is part of the JR Partners group of companies. By providing your information to us, you consent to us sharing your Personal Information with our affiliate entities to facilitate our "Vertically Integrated" service model:</p>
+                            <ul>
+                                <li><strong>CornerStone:</strong> We may share project specs with CornerStone for stone fabrication purposes.</li>
+                                <li><strong>LuxeStone:</strong> We may share your contact details with LuxeStone to facilitate showroom appointments for material selection.</li>
+                                <li><strong>JR Stone Elite Ltd. Administration:</strong> For centralized billing, insurance, and warranty registration.</li>
+                            </ul>
+
+                            <h3>4. Third-Party Service Providers</h3>
+                            <p>We may transfer data to trusted third-party service providers who assist us in operating our Website and conducting our business. These parties are contractually obligated to keep your information confidential.</p>
+                            <ul>
+                                <li><strong>Hosting & Infrastructure:</strong> Providers who host our Website and databases.</li>
+                                <li><strong>Analytics & Search Technologies:</strong>
+                                    <ul>
+                                        <li><strong>Google:</strong> We use Google Analytics and Search Console to monitor traffic and site health.</li>
+                                        <li><strong>Microsoft:</strong> We use Microsoft Bing Webmaster Tools and Universal Event Tracking (UET). This allows us to track the effectiveness of our presence on the Microsoft Search Network (Bing, Yahoo, AOL) and troubleshoot crawling issues.</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Marketing Platforms:</strong> Platforms used to send automated email confirmations or newsletters (only if you have opted in).</li>
+                            </ul>
+
+                            <h3>5. Data Retention</h3>
+                            <p>We retain your Personal Information only as long as necessary to fulfill the purposes for which it was collected, including for the purposes of satisfying any legal, accounting, or reporting requirements.</p>
+                            <ul>
+                                <li><strong>Construction Records:</strong> Due to the long-term nature of our Warranty, we retain client project records (contracts, site photos, material specs) indefinitely to ensure we can service your warranty years in the future.</li>
+                            </ul>
+
+                            <h3>6. Security of Your Information</h3>
+                            <p>We use administrative, technical, and physical security measures to help protect your Personal Information. These measures include SSL encryption on our Website and restricted access to client databases. However, no data transmission over the Internet is guaranteed to be 100% secure.</p>
+
+                            <h3>7. International Transfers</h3>
+                            <p>While our headquarters are in Toronto, Ontario, some of our third-party service providers (e.g., cloud hosting or analytics servers) may store data on servers located outside of Canada (such as in the United States). Your data may be subject to the laws of those jurisdictions.</p>
+
+                            <h3>8. Your Rights</h3>
+                            <p>Under Canadian privacy laws (PIPEDA), you have the right to:</p>
+                            <ul>
+                                <li><strong>Access:</strong> Request a copy of the Personal Information we hold about you.</li>
+                                <li><strong>Correction:</strong> Request correction of any incomplete or inaccurate data.</li>
+                                <li><strong>Withdraw Consent:</strong> Withdraw your consent for the collection or use of your information at any time (subject to legal or contractual restrictions, such as an active construction contract).</li>
+                            </ul>
+                            <p>To exercise these rights, please contact our Privacy Officer using the details in Section 11.</p>
+
+                            <h3>9. Managing Your Tracking Preferences</h3>
+                            <p>In addition to browser-based cookie controls, you can manage how your data is collected by our analytics partners:</p>
+                            <ul>
+                                <li><strong>Google:</strong> You can install the <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener" style="color: var(--accent-blue);">Google Analytics Opt-out Browser Add-on</a>.</li>
+                                <li><strong>Microsoft:</strong> You can manage your personalized advertising and tracking settings via the <a href="https://account.microsoft.com/privacy" target="_blank" rel="noopener" style="color: var(--accent-blue);">Microsoft Privacy Dashboard</a>.</li>
+                            </ul>
+
+                            <h3>10. Updates to This Policy</h3>
+                            <p>We may update this Privacy Policy from time to time to reflect changes in our practices or for legal reasons. The "Last Updated" date at the top of this page indicates when the latest changes were made.</p>
+
+                            <h3>11. Contact Us</h3>
+                            <p>If you have questions about this Privacy Policy or our privacy practices, please <a href="contact.html" style="color: var(--accent-blue);">contact us</a>.</p>
+                            <p><strong>JR Stone Elite Ltd.</strong></p>
+                        </section>
+
+                        <!-- COOKIES POLICY -->
+                        <section id="cookies-policy" class="policy-section">
+                            <h2>Cookies Policy</h2>
+                            <p class="last-updated">Last Updated: November 27, 2025</p>
+                            
+                            <p>JR Stone Elite Ltd. ("we", "us", or "our"), operating as JR Hardscaping, uses cookies and similar tracking technologies on our website www.jrhardscaping.ca (the "Website").</p>
+                            <p>By continuing to browse or use our Website, you agree to our use of cookies as described in this policy.</p>
+
+                            <h3>1. What Are Cookies?</h3>
+                            <p>Cookies are small text files that are downloaded to your computer or mobile device when you visit a website. They allow the Website to recognize your device and store some information about your preferences or past actions.</p>
+                            <ul>
+                                <li><strong>First-Party Cookies:</strong> These are set directly by us to make the website function.</li>
+                                <li><strong>Third-Party Cookies:</strong> These are set by other domains (e.g., Google, Microsoft, or YouTube) that we use for specific services like maps, analytics, or video playback.</li>
+                            </ul>
+
+                            <h3>2. Why We Use Cookies</h3>
+                            <p>We use cookies to improve the functionality of our interactive tools (like the Solution Finder), analyze traffic to improve our search rankings, and protect the security of our forms. We categorize our cookies as follows:</p>
+
+                            <h4>A. Strictly Necessary Cookies (Essential)</h4>
+                            <p>These cookies are necessary for the Website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you, such as:</p>
+                            <ul>
+                                <li>Setting your privacy preferences.</li>
+                                <li>Filling in the "Contact" or "Consultation" forms.</li>
+                                <li>Ensuring security by detecting malicious bot activity.</li>
+                            </ul>
+
+                            <h4>B. Functional Cookies</h4>
+                            <p>These allow the Website to provide enhanced functionality and personalization.</p>
+                            <ul>
+                                <li><strong>The "Problem Picker" Tool:</strong> If you use our Solution Finder tool (e.g., selecting "Sinking Driveway"), a cookie may remember your selection so you do not lose your place if you navigate to a product page and back.</li>
+                                <li><strong>Video Playback:</strong> We use high-resolution video headers. Cookies help buffer this content efficiently based on your connection speed.</li>
+                            </ul>
+
+                            <h4>C. Performance & Analytics Cookies</h4>
+                            <p>These allow us to count visits and traffic sources so we can measure and improve the performance of our site.</p>
+                            <ul>
+                                <li><strong>Google Analytics:</strong> We use Google Analytics to understand which "City Pages" (e.g., Vaughan vs. Toronto) are most popular and which "Solutions" users search for most. This data is aggregated and anonymized.</li>
+                                <li><strong>Microsoft Bing Webmaster Tools:</strong> We use Microsoft technologies, including Universal Event Tracking (UET) tags. This allows us to understand how users find our website via the Microsoft Search Network (Bing, Yahoo, AOL) and helps us troubleshoot how our site is crawled and indexed.</li>
+                            </ul>
+
+                            <h4>D. Marketing & Targeting Cookies</h4>
+                            <p>These cookies may be set through our site by our advertising partners. They do not store directly personal information but are based on uniquely identifying your browser and internet device.</p>
+                            <ul>
+                                <li><strong>Purpose:</strong> They may be used to show you relevant ads for JR Hardscaping or our retail division LuxeStone on other sites based on the products you viewed here.</li>
+                            </ul>
+
+                            <h3>3. Third-Party Technologies</h3>
+                            <p>We use trusted third-party services that may set their own cookies:</p>
+                            <ul>
+                                <li><strong>Google Maps:</strong> Used on our "Contact" and "Service Area" pages to display our office location and service radius.</li>
+                                <li><strong>YouTube / Vimeo:</strong> Used to serve the high-quality project walkthrough videos in our Hero sections and Portfolio.</li>
+                            </ul>
+
+                            <h3>4. How to Manage or Block Cookies</h3>
+                            <p>You have the right to accept or reject cookies. Most web browsers automatically accept cookies, but you can usually modify your browser setting to decline cookies if you prefer.</p>
+                            
+                            <h4>Specific Opt-Out Links:</h4>
+                            <p>In addition to browser settings, you can manage your preferences with our specific analytics partners:</p>
+                            <ul>
+                                <li><strong>Google:</strong> You can opt-out of Google Analytics across all websites by installing the <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener" style="color: var(--accent-blue);">Google Analytics Opt-out Browser Add-on</a>.</li>
+                                <li><strong>Microsoft:</strong> You can manage your privacy settings and opt-out of Microsoft's personalized advertising and tracking by visiting the <a href="https://account.microsoft.com/privacy" target="_blank" rel="noopener" style="color: var(--accent-blue);">Microsoft Privacy Dashboard</a>.</li>
+                            </ul>
+
+                            <h3>5. Changes to This Policy</h3>
+                            <p>We may update this Cookies Policy to reflect changes to the cookies we use or for other operational, legal, or regulatory reasons. Please revisit this page periodically to stay informed about our use of cookies and related technologies.</p>
+
+                            <h3>6. Contact</h3>
+                            <p>For questions regarding our use of cookies, please <a href="contact.html" style="color: var(--accent-blue);">contact us</a>.</p>
+                            <p><strong>JR Stone Elite Ltd.</strong></p>
+                        </section>
+
+                        <!-- ACCESSIBILITY -->
+                        <section id="accessibility" class="policy-section">
+                            <h2>Accessibility Policy</h2>
+                            <p class="last-updated">Last Updated: November 27, 2025</p>
+                            
+                            <p>JR Stone Elite Ltd. ("Company", "we", "us", or "our"), operating as JR Hardscaping, is committed to ensuring equal access and participation for people with disabilities. We are committed to treating people with disabilities in a way that allows them to maintain their dignity and independence.</p>
+
+                            <p>We believe in integration, and we are committed to meeting the needs of people with disabilities in a timely manner. We will do so by removing and preventing barriers to accessibility and by meeting our accessibility requirements under the Accessibility for Ontarians with Disabilities Act (AODA) and Ontario's Integrated Accessibility Standards Regulations.</p>
+
+                            <h3>1. Web Content Accessibility Guidelines (WCAG)</h3>
+                            <p>We are actively working to ensure our website, www.jrhardscaping.ca, conforms to the World Wide Web Consortium's (W3C) Web Content Accessibility Guidelines (WCAG) 2.1 at Level AA.</p>
+                            <p>These guidelines explain how to make web content more accessible for people with a wide array of disabilities, including visual, auditory, physical, speech, cognitive, language, learning, and neurological disabilities.</p>
+
+                            <h3>2. Accessibility Features on Our Website</h3>
+                            <p>To ensure our site is usable by everyone, we have implemented the following features:</p>
+                            <ul>
+                                <li><strong>Keyboard Navigation:</strong> Our website, including the "Solutions" dropdown menu and Contact forms, can be navigated using a keyboard for users who cannot use a mouse.</li>
+                                <li><strong>Alternative Text (Alt Text):</strong> As a visual-heavy site featuring stone textures and project galleries, we strive to include descriptive Alt Text attributes on all meaningful images. This allows users using screen readers (such as JAWS, NVDA, or VoiceOver) to understand the content of our photos.</li>
+                                <li><strong>Contrast Ratios:</strong> We have designed our site using high-contrast typography (Dark Grey/Black text on White backgrounds) to ensure text is readable for users with low vision or color blindness.</li>
+                                <li><strong>Form Labels:</strong> All input fields on our "Contact" and "Quote" forms utilize descriptive labels to assist assistive technology.</li>
+                                <li><strong>Resizable Text:</strong> Our website is built using relative sizing, allowing users to zoom in up to 200% without loss of content or functionality.</li>
+                            </ul>
+
+                            <h3>3. Third-Party Content</h3>
+                            <p>Our website makes use of third-party services to provide certain functionality. We cannot always control the accessibility of content provided by these third parties, though we strive to choose partners who share our commitment to inclusion.</p>
+                            <ul>
+                                <li><strong>Google Maps:</strong> Used for our "Service Area" and location display.</li>
+                                <li><strong>YouTube/Vimeo:</strong> Used for project showcase videos.</li>
+                            </ul>
+
+                            <h3>4. Feedback and Accommodation Requests</h3>
+                            <p>We welcome your feedback on the accessibility of the JR Hardscaping website. If you encounter any barriers while using our site, or if you require any content (such as a PDF brochure or warranty document) in an alternative, accessible format, please contact us.</p>
+                            <p>We are committed to providing accessible formats and communication supports in a timely manner and at no additional cost.</p>
+                            <p><a href="contact.html" style="color: var(--accent-blue);">Contact us</a> to report an issue or request an accommodation.</p>
+
+                            <h3>5. Ongoing Monitoring</h3>
+                            <p>We regularly review our website and digital practices to ensure ongoing compliance with AODA standards. This policy is reviewed annually to ensure it reflects our current practices and legislative requirements.</p>
+                        </section>
+
+                        <!-- DISCLAIMER -->
+                        <section id="disclaimer" class="policy-section">
+                            <h2>Disclaimer</h2>
+                            <p class="last-updated">Last Updated: November 27, 2025</p>
+                            
+                            <p>The information provided by JR Stone Elite Ltd. ("Company", "we", "us", or "our"), operating as JR Hardscaping, on www.jrhardscaping.ca (the "Website") is for general informational and educational purposes only. All information on the Website is provided in good faith, however, we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the Website.</p>
+                            <p>By using this Website, you agree to the limitations of liability set out below.</p>
+
+                            <h3>1. No Professional Engineering or Legal Advice</h3>
+                            <p>The content found on our "Solutions" pages, "Knowledge Hub," and blog posts—including advice on drainage, grading, permits, and zoning—is intended for general guidance only.</p>
+                            <ul>
+                                <li><strong>Not Professional Advice:</strong> It does not constitute professional engineering, architectural, or legal advice.</li>
+                                <li><strong>Site Specificity:</strong> Every property in the Greater Toronto Area involves unique soil conditions, water tables, and municipal constraints. A solution that works for one property may fail at another. You should not rely on the information on this Website as a substitute for a professional on-site consultation and engineering assessment by our qualified project managers.</li>
+                            </ul>
+
+                            <h3>2. Natural Stone & Material Disclaimer</h3>
+                            <p><strong>This is a critical term of our service:</strong></p>
+                            <p>JR Hardscaping supplies and installs natural materials (Granite, Limestone, Sandstone) and manufactured products (Interlock, Sintered Stone). By viewing our online catalog or samples, you acknowledge:</p>
+                            <ul>
+                                <li><strong>Natural Variation:</strong> Natural stone is a product of the earth. It is subject to variations in color, veining, texture, grain, and spotting. The sample you view in a showroom or on a computer screen may differ from the actual stone delivered to your site. These variations are not defects; they are the inherent beauty of the material.</li>
+                                <li><strong>Efflorescence:</strong> Manufactured pavers and concrete products may exhibit "efflorescence"—a white, powdery haze caused by natural salts rising to the surface. This is a natural chemical process, not a manufacturing defect, and is not covered by warranty as it typically weathers away over time.</li>
+                                <li><strong>Rust & Oxidation:</strong> Some natural stones contain iron deposits that may oxidize (turn rust-colored) when exposed to rain. This is a geological characteristic, not a flaw.</li>
+                            </ul>
+
+                            <h3>3. Construction & Rendering Disclaimer</h3>
+                            <ul>
+                                <li><strong>3D Renderings:</strong> Any 3D designs, CAD drawings, or conceptual sketches provided on this Website or during the "Discovery Phase" are for artistic visualization purposes only. They are not architectural blueprints. Actual field conditions may require adjustments to dimensions, levels, and layouts during construction.</li>
+                                <li><strong>Site Conditions:</strong> Construction involves the use of heavy machinery. While we take every precaution (using ground protection mats and hoarding), minor disturbances to surrounding grass, vibration cracks in nearby drywall, or dust settling on neighboring properties are risks associated with major construction. JR Stone Elite Ltd. is not liable for incidental damages inherent to the nature of excavation work unless caused by gross negligence.</li>
+                            </ul>
+
+                            <h3>4. Underground Utilities</h3>
+                            <p>While JR Hardscaping coordinates all public utility locates (Gas, Hydro, Water, Telecom) via Ontario One Call, we are not responsible for damage to private underground lines that are not mapped by public utilities.</p>
+                            <ul>
+                                <li><strong>Owner Responsibility:</strong> It is the homeowner's responsibility to identify and mark private lines such as sprinkler systems, heated driveway lines (installed by others), pool plumbing, or invisible dog fences.</li>
+                            </ul>
+
+                            <h3>5. Pricing & Estimates</h3>
+                            <p>Any pricing information mentioned on the Website is indicative only.</p>
+                            <ul>
+                                <li><strong>Estimates:</strong> Online calculators or verbal discussions are non-binding estimates.</li>
+                                <li><strong>Contracts:</strong> A binding agreement and fixed price are only established upon the signing of a formal Construction Contract detailing the specific scope of work. We reserve the right to correct any errors in pricing or descriptions on the Website without liability.</li>
+                            </ul>
+
+                            <h3>6. External Links</h3>
+                            <p>The Website may contain links to other websites or content belonging to or originating from third parties (e.g., manufacturers like Techo-Bloc, Unilock, or municipal permit offices). Such external links are not investigated, monitored, or checked for accuracy, adequacy, validity, reliability, availability, or completeness by us. We do not warrant, endorse, guarantee, or assume responsibility for the accuracy or reliability of any information offered by third-party websites linked through the site.</p>
+
+                            <h3>7. Limitation of Liability</h3>
+                            <p>Under no circumstance shall JR Stone Elite Ltd. or the JR Partners group be liable to you for any loss or damage of any kind incurred as a result of the use of the Website or reliance on any information provided on the Website. Your use of the Website and your reliance on any information on the Website is solely at your own risk.</p>
+
+                            <h3>8. Contact</h3>
+                            <p>If you require clarification regarding any aspect of this disclaimer, please <a href="contact.html" style="color: var(--accent-blue);">contact us</a>.</p>
+                            <p><strong>JR Stone Elite Ltd.</strong></p>
+                        </section>
+
+                        <!-- Contact Section -->
+                        <div style="margin-top: var(--spacing-xl); padding: var(--spacing-lg); background-color: var(--off-white); border-radius: 8px;">
+                            <h3>Questions About Our Policies?</h3>
+                            <p>If you have any questions regarding these policies, please contact us:</p>
+                            <p>
+                                <strong>JR Stone Elite Ltd.</strong><br>
+                                Operating as: JR Hardscaping<br>
+                                Email: <a href="mailto:Frankie.Li@jrpartners.ca" style="color: var(--accent-blue);">Frankie.Li@jrpartners.ca</a><br>
+                                Phone: <a href="tel:+16479954576" style="color: var(--accent-blue);">+1 (647) 995-4576</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Global Footer -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-identity">
+                <div class="footer-logo-section">
+                    <img src="images/logo.svg" alt="JR Hardscaping Logo" class="footer-logo">
+                </div>
+                <p class="footer-subtext">Operated by <strong>JR Stone Elite Ltd.</strong></p>
+                <p class="footer-trust-signal">Part of JR Partners</p>
+            </div>
+            <div class="footer-sitemap">
+                <h4 class="footer-heading">Our Services</h4>
+                <ul class="footer-links">
+                    <li><a href="service-construction.html" class="footer-link">Hardscape Construction & Engineering</a></li>
+                    <li><a href="service-outdoor-living.html" class="footer-link">Outdoor Living Features</a></li>
+                    <li><a href="service-site-management.html" class="footer-link">Specialty Construction & Technical Services</a></li>
+                </ul>
+            </div>
+            <div class="footer-sitemap">
+                <h4 class="footer-heading">Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="policies.html" class="footer-link">Policies</a></li>
+                    <li><a href="contact.html" class="footer-link">Contact Us</a></li>
+                    <li><a href="faq.html" class="footer-link">FAQ</a></li>
+                    <li><a href="about.html" class="footer-link">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4 class="footer-heading">Get In Touch</h4>
+                <address class="footer-address">
+                    <p class="address-line">
+                        <strong>JR Hardscaping</strong><br>
+                        Unit 2 - 1300 Alness Street<br>
+                        Toronto, ON L4K 2W6
+                    </p>
+                    <p class="contact-info">
+                        <a href="tel:+16479954576" class="contact-link">+1 (647) 995-4576</a><br>
+                        <a href="mailto:Frankie.Li@jrpartners.ca" class="contact-link">Frankie.Li@jrpartners.ca</a>
+                    </p>
+                </address>
+                <div class="service-areas">
+                    <h5 class="service-heading">Service Areas</h5>
+                    <p class="service-text">Serving Toronto, Vaughan, Mississauga, Richmond Hill, Markham, and other GTA areas.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-copyright">
+                <p>&copy; 2026 JR Stone Elite Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Header functionality
+        window.addEventListener('scroll', function() {
+            const header = document.getElementById('mainHeader');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile menu toggle
+        const hamburgerMenu = document.getElementById('hamburgerMenu');
+        const mobileMenuOverlay = document.getElementById('mobileMenuOverlay');
+        const body = document.body;
+
+        hamburgerMenu.addEventListener('click', function() {
+            const isExpanded = hamburgerMenu.getAttribute('aria-expanded') === 'true';
+            hamburgerMenu.setAttribute('aria-expanded', !isExpanded);
+            hamburgerMenu.classList.toggle('active');
+            mobileMenuOverlay.classList.toggle('active');
+            body.classList.toggle('menu-open');
+        });
+
+        const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+        mobileNavLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                hamburgerMenu.classList.remove('active');
+                mobileMenuOverlay.classList.remove('active');
+                body.classList.remove('menu-open');
+                hamburgerMenu.setAttribute('aria-expanded', 'false');
+            });
+        });
+
+        mobileMenuOverlay.addEventListener('click', function(e) {
+            if (e.target === mobileMenuOverlay) {
+                hamburgerMenu.classList.remove('active');
+                mobileMenuOverlay.classList.remove('active');
+                body.classList.remove('menu-open');
+                hamburgerMenu.setAttribute('aria-expanded', 'false');
+            }
+        });
+
+        // Sidebar navigation
+        const policyNavLinks = document.querySelectorAll('.policy-nav-link');
+        policyNavLinks.forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                // Remove active class from all links
+                policyNavLinks.forEach(l => l.classList.remove('active'));
+                // Add active class to clicked link
+                this.classList.add('active');
+                
+                // Scroll to section
+                const targetId = this.getAttribute('href').substring(1);
+                const targetSection = document.getElementById(targetId);
+                if (targetSection) {
+                    targetSection.scrollIntoView({ behavior: 'smooth' });
+                }
+
+                // Close mobile sidebar if open
+                if (window.innerWidth <= 968) {
+                    document.getElementById('policiesSidebar').classList.remove('active');
+                }
+            });
+        });
+
+        // Mobile sidebar toggle
+        const sidebarToggle = document.getElementById('sidebarToggle');
+        const policiesSidebar = document.getElementById('policiesSidebar');
+
+        if (sidebarToggle) {
+            sidebarToggle.addEventListener('click', function() {
+                policiesSidebar.classList.toggle('active');
+                this.textContent = policiesSidebar.classList.contains('active') ? 
+                    'Hide Policy Menu' : 'View Policy Menu';
+            });
+        }
+
+        // Update active link on scroll
+        const sections = document.querySelectorAll('.policy-section');
+        window.addEventListener('scroll', function() {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (window.pageYOffset >= sectionTop - 150) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            policyNavLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').substring(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
