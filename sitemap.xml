@@ -77,4 +77,72 @@
     <priority>0.5</priority>
   </url>
   
+  <!-- Chinese Homepage -->
+  <url>
+    <loc>https://jrhardscaping.com/zh/index-zh.html</loc>
+    <lastmod>2025-11-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Chinese Service Pages -->
+  <url>
+    <loc>https://jrhardscaping.com/zh/service-construction-zh.html</loc>
+    <lastmod>2025-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://jrhardscaping.com/zh/service-outdoor-living-zh.html</loc>
+    <lastmod>2025-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://jrhardscaping.com/zh/service-site-management-zh.html</loc>
+    <lastmod>2025-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Chinese Core Pages -->
+  <url>
+    <loc>https://jrhardscaping.com/zh/solutions-zh.html</loc>
+    <lastmod>2025-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jrhardscaping.com/zh/products-zh.html</loc>
+    <lastmod>2025-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jrhardscaping.com/zh/contact-zh.html</loc>
+    <lastmod>2025-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jrhardscaping.com/zh/about-zh.html</loc>
+    <lastmod>2025-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Chinese Informational Pages -->
+  <url>
+    <loc>https://jrhardscaping.com/zh/faq-zh.html</loc>
+    <lastmod>2025-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jrhardscaping.com/zh/thank-you-zh.html</loc>
+    <lastmod>2025-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
 </urlset>
