@@ -1,6 +1,16 @@
 // Shared script for loading navigation and footer components (Chinese version)
 // Used by Chinese pages to avoid code duplication
 
+function renderEmailLinks(container = document) {
+    container.querySelectorAll('[data-email-user][data-email-domain]').forEach(link => {
+        const address = `${link.dataset.emailUser}@${link.dataset.emailDomain}`;
+        link.href = `mailto:${address}`;
+        link.textContent = address;
+    });
+}
+
+renderEmailLinks();
+
 // Load Chinese navigation
 fetch('navigation-zh.html')
     .then(response => response.text())
@@ -27,4 +37,5 @@ fetch('footer-zh.html')
         const footer = doc.querySelector('footer');
         
         document.getElementById('footer-placeholder').appendChild(footer);
+        renderEmailLinks(footer);
     });
